@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "d-problem": "ts-node-dev -r tsconfig-paths/register  --ignore-watch node_modules src/dependency_inversion/problem/index.ts",
-    "d-solution": "ts-node-dev -r tsconfig-paths/register  --ignore-watch node_modules src/dependency_inversion/solution/index.ts"
+    "start-d-problem": "ts-node-dev -r tsconfig-paths/register  --ignore-watch node_modules src/dependency_inversion/problem/index.ts",
+    "start-d-solution": "ts-node-dev -r tsconfig-paths/register  --ignore-watch node_modules src/dependency_inversion/solution/index.ts"
   },
   "author": "",
   "license": "MIT",
